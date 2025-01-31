@@ -64,13 +64,17 @@ body {
 
 
 /* Container de redes sociais e WhatsApp */
-/* Container de redes sociais e WhatsApp */
+.social-text h4{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 .social-container {
     display: flex;
     justify-content: space-evenly; /* Espaçamento uniforme */
     align-items: center;
     margin-bottom: 15px;
-    gap: 10px; /* Distância entre os elementos */
+     /* Distância entre os elementos */
 }
 
 /* Cada item de rede social ou WhatsApp */
@@ -91,4 +95,12 @@ body {
     font-size: 14px;
     margin-top: 5px;
     text-align: center;
+}
+
+#pkfotografia {
+    margin-left: 24px;
+}
+
+#pkdrones {
+    margin-left: 12px;
 }
