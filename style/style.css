@@ -1,0 +1,94 @@
+/* Definições gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Modo dark */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    max-width: 400px;
+    width: 95%;
+}
+
+/* Logo */
+.logo {
+    width: 200px;
+    margin-bottom: 2px;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+/* Fotos circulares */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+
+.profile img {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+.profile p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Descrição */
+.description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+
+/* Container de redes sociais e WhatsApp */
+/* Container de redes sociais e WhatsApp */
+.social-container {
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento uniforme */
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px; /* Distância entre os elementos */
+}
+
+/* Cada item de rede social ou WhatsApp */
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social img {
+    width: 48px; /* Tamanho ajustado para maior destaque */
+    height: 48px;
+}
+
+.social p {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
